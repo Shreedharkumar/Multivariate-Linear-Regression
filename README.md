@@ -23,6 +23,8 @@ Use regression.fit function of inputted variables of x and y and print correspon
 
 ## Program:
 ```
+Developed by: SHREEDHAR KUMAR K.J
+Reg.No: 24901118
 import pandas as pd
 from sklearn import linear_model
 df = pd.read_csv("carsemission.csv")
@@ -36,10 +38,8 @@ predictedCO2 = regr.predict([[3300, 1300]])
 print('Predicted CO2 for the corresponding weight and volume',predictedCO2)
 ```
 ## Output:
-![Screenshot 2024-12-29 103932](https://github.com/user-attachments/assets/5d948132-3b6e-4efe-915c-82d38549b0b0)
+![image](https://github.com/user-attachments/assets/22d08f95-65b2-4fdc-9950-8cdac9471ca7)
 
-
-<br>
 
 ## Result
 Thus the multivariate linear regression is implemented and predicted the output using python program.
